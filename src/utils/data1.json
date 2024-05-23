@@ -1,350 +1,730 @@
 [
   {
     "name": "Horizontal Tabulation",
-    "unicode": [
-      "U+0009"
-    ],
-    "htmlEntityName": [
-      "&Tab;"
-    ],
-    "htmlEntityDEC": [
-      "&#9;"
-    ],
-    "htmlEntityHEX": [
-      "&#x0009;"
-    ],
-    "abbr": "HT"
+    "abbr": "HT",
+    "name_cn": "制表符",
+    "index": 9,
+    "type": "unicode",
+    "code": "U+0009"
+  },
+  {
+    "name": "Horizontal Tabulation",
+    "abbr": "HT",
+    "name_cn": "制表符",
+    "index": 9,
+    "type": "htmlEntityName",
+    "code": "&Tab;"
+  },
+  {
+    "name": "Horizontal Tabulation",
+    "abbr": "HT",
+    "name_cn": "制表符",
+    "index": 9,
+    "type": "htmlEntityDEC",
+    "code": "&#9;"
+  },
+  {
+    "name": "Horizontal Tabulation",
+    "abbr": "HT",
+    "name_cn": "制表符",
+    "index": 9,
+    "type": "htmlEntityHEX",
+    "code": "&#x0009;"
   },
   {
     "name": "Space",
-    "unicode": [
-      "U+0020"
-    ],
-    "htmlEntityName": [],
-    "htmlEntityDEC": [
-      "&#32;"
-    ],
-    "htmlEntityHEX": [
-      "&#x0020;"
-    ],
-    "abbr": ""
+    "abbr": "",
+    "name_cn": "空格",
+    "index": 32,
+    "type": "unicode",
+    "code": "U+0020"
+  },
+  {
+    "name": "Space",
+    "abbr": "",
+    "name_cn": "空格",
+    "index": 32,
+    "type": "htmlEntityDEC",
+    "code": "&#32;"
+  },
+  {
+    "name": "Space",
+    "abbr": "",
+    "name_cn": "空格",
+    "index": 32,
+    "type": "htmlEntityHEX",
+    "code": "&#x0020;"
   },
   {
     "name": "No-Break Space",
-    "unicode": [
-      "U+00A0"
-    ],
-    "htmlEntityName": [
-      "&nbsp",
-      "&nbsp;",
-      "&NonBreakingSpace;"
-    ],
-    "htmlEntityDEC": [
-      "&#160;"
-    ],
-    "htmlEntityHEX": [
-      "&#x00A0;"
-    ],
-    "abbr": "NBSP"
+    "abbr": "NBSP",
+    "name_cn": "无中断空格",
+    "index": 160,
+    "type": "unicode",
+    "code": "U+00A0"
+  },
+  {
+    "name": "No-Break Space",
+    "abbr": "NBSP",
+    "name_cn": "无中断空格",
+    "index": 160,
+    "type": "htmlEntityName",
+    "code": "&nbsp"
+  },
+  {
+    "name": "No-Break Space",
+    "abbr": "NBSP",
+    "name_cn": "无中断空格",
+    "index": 160,
+    "type": "htmlEntityName",
+    "code": "&nbsp;"
+  },
+  {
+    "name": "No-Break Space",
+    "abbr": "NBSP",
+    "name_cn": "无中断空格",
+    "index": 160,
+    "type": "htmlEntityName",
+    "code": "&NonBreakingSpace;"
+  },
+  {
+    "name": "No-Break Space",
+    "abbr": "NBSP",
+    "name_cn": "无中断空格",
+    "index": 160,
+    "type": "htmlEntityDEC",
+    "code": "&#160;"
+  },
+  {
+    "name": "No-Break Space",
+    "abbr": "NBSP",
+    "name_cn": "无中断空格",
+    "index": 160,
+    "type": "htmlEntityHEX",
+    "code": "&#x00A0;"
   },
   {
     "name": "En Quad",
-    "unicode": [
-      "U+2000"
-    ],
-    "htmlEntityName": [],
-    "htmlEntityDEC": [
-      "&#8192;"
-    ],
-    "htmlEntityHEX": [
-      "&#x2000;"
-    ],
-    "abbr": "NQSP"
+    "abbr": "NQSP",
+    "name_cn": "半宽空白",
+    "index": 8192,
+    "type": "unicode",
+    "code": "U+2000"
+  },
+  {
+    "name": "En Quad",
+    "abbr": "NQSP",
+    "name_cn": "半宽空白",
+    "index": 8192,
+    "type": "htmlEntityDEC",
+    "code": "&#8192;"
+  },
+  {
+    "name": "En Quad",
+    "abbr": "NQSP",
+    "name_cn": "半宽空白",
+    "index": 8192,
+    "type": "htmlEntityHEX",
+    "code": "&#x2000;"
   },
   {
     "name": "Em Quad",
-    "unicode": [
-      "U+2001"
-    ],
-    "htmlEntityName": [],
-    "htmlEntityDEC": [
-      "&#8193;"
-    ],
-    "htmlEntityHEX": [
-      "&#x2001;"
-    ],
-    "abbr": "MQSP"
+    "abbr": "MQSP",
+    "name_cn": "全宽空白",
+    "index": 8193,
+    "type": "unicode",
+    "code": "U+2001"
+  },
+  {
+    "name": "Em Quad",
+    "abbr": "MQSP",
+    "name_cn": "全宽空白",
+    "index": 8193,
+    "type": "htmlEntityDEC",
+    "code": "&#8193;"
+  },
+  {
+    "name": "Em Quad",
+    "abbr": "MQSP",
+    "name_cn": "全宽空白",
+    "index": 8193,
+    "type": "htmlEntityHEX",
+    "code": "&#x2001;"
   },
   {
     "name": "En Space",
-    "unicode": [
-      "U+2002"
-    ],
-    "htmlEntityName": [
-      "&ensp;"
-    ],
-    "htmlEntityDEC": [
-      "&#8194;"
-    ],
-    "htmlEntityHEX": [
-      "&#x2002;"
-    ],
-    "abbr": "ENSP"
+    "abbr": "ENSP",
+    "name_cn": "半宽空格",
+    "index": 8194,
+    "type": "unicode",
+    "code": "U+2002"
+  },
+  {
+    "name": "En Space",
+    "abbr": "ENSP",
+    "name_cn": "半宽空格",
+    "index": 8194,
+    "type": "htmlEntityName",
+    "code": "&ensp;"
+  },
+  {
+    "name": "En Space",
+    "abbr": "ENSP",
+    "name_cn": "半宽空格",
+    "index": 8194,
+    "type": "htmlEntityDEC",
+    "code": "&#8194;"
+  },
+  {
+    "name": "En Space",
+    "abbr": "ENSP",
+    "name_cn": "半宽空格",
+    "index": 8194,
+    "type": "htmlEntityHEX",
+    "code": "&#x2002;"
   },
   {
     "name": "Em Space",
-    "unicode": [
-      "U+2003"
-    ],
-    "htmlEntityName": [
-      "&emsp;"
-    ],
-    "htmlEntityDEC": [
-      "&#8195;"
-    ],
-    "htmlEntityHEX": [
-      "&#x2003;"
-    ],
-    "abbr": "EMSP"
+    "abbr": "EMSP",
+    "name_cn": "全宽空格",
+    "index": 8195,
+    "type": "unicode",
+    "code": "U+2003"
+  },
+  {
+    "name": "Em Space",
+    "abbr": "EMSP",
+    "name_cn": "全宽空格",
+    "index": 8195,
+    "type": "htmlEntityName",
+    "code": "&emsp;"
+  },
+  {
+    "name": "Em Space",
+    "abbr": "EMSP",
+    "name_cn": "全宽空格",
+    "index": 8195,
+    "type": "htmlEntityDEC",
+    "code": "&#8195;"
+  },
+  {
+    "name": "Em Space",
+    "abbr": "EMSP",
+    "name_cn": "全宽空格",
+    "index": 8195,
+    "type": "htmlEntityHEX",
+    "code": "&#x2003;"
   },
   {
     "name": "Three-Per-Em Space",
-    "unicode": [
-      "U+2004"
-    ],
-    "htmlEntityName": [
-      "&emsp13;"
-    ],
-    "htmlEntityDEC": [
-      "&#8196;"
-    ],
-    "htmlEntityHEX": [
-      "&#x2004;"
-    ],
-    "abbr": "3/MSP"
+    "abbr": "3/MSP",
+    "name_cn": "三分之一空格",
+    "index": 8196,
+    "type": "unicode",
+    "code": "U+2004"
+  },
+  {
+    "name": "Three-Per-Em Space",
+    "abbr": "3/MSP",
+    "name_cn": "三分之一空格",
+    "index": 8196,
+    "type": "htmlEntityName",
+    "code": "&emsp13;"
+  },
+  {
+    "name": "Three-Per-Em Space",
+    "abbr": "3/MSP",
+    "name_cn": "三分之一空格",
+    "index": 8196,
+    "type": "htmlEntityDEC",
+    "code": "&#8196;"
+  },
+  {
+    "name": "Three-Per-Em Space",
+    "abbr": "3/MSP",
+    "name_cn": "三分之一空格",
+    "index": 8196,
+    "type": "htmlEntityHEX",
+    "code": "&#x2004;"
   },
   {
     "name": "Four-Per-Em Space",
-    "unicode": [
-      "U+2005"
-    ],
-    "htmlEntityName": [
-      "&emsp14;"
-    ],
-    "htmlEntityDEC": [
-      "&#8197;"
-    ],
-    "htmlEntityHEX": [
-      "&#x2005;"
-    ],
-    "abbr": "4/MSP"
+    "abbr": "4/MSP",
+    "name_cn": "四分之一空格",
+    "index": 8197,
+    "type": "unicode",
+    "code": "U+2005"
+  },
+  {
+    "name": "Four-Per-Em Space",
+    "abbr": "4/MSP",
+    "name_cn": "四分之一空格",
+    "index": 8197,
+    "type": "htmlEntityName",
+    "code": "&emsp14;"
+  },
+  {
+    "name": "Four-Per-Em Space",
+    "abbr": "4/MSP",
+    "name_cn": "四分之一空格",
+    "index": 8197,
+    "type": "htmlEntityDEC",
+    "code": "&#8197;"
+  },
+  {
+    "name": "Four-Per-Em Space",
+    "abbr": "4/MSP",
+    "name_cn": "四分之一空格",
+    "index": 8197,
+    "type": "htmlEntityHEX",
+    "code": "&#x2005;"
   },
   {
     "name": "Six-Per-Em Space",
-    "unicode": [
-      "U+2006"
-    ],
-    "htmlEntityName": [],
-    "htmlEntityDEC": [
-      "&#8198;"
-    ],
-    "htmlEntityHEX": [
-      "&#x2006;"
-    ],
-    "abbr": "6/MSP"
+    "abbr": "6/MSP",
+    "name_cn": "六分之一空格",
+    "index": 8198,
+    "type": "unicode",
+    "code": "U+2006"
+  },
+  {
+    "name": "Six-Per-Em Space",
+    "abbr": "6/MSP",
+    "name_cn": "六分之一空格",
+    "index": 8198,
+    "type": "htmlEntityDEC",
+    "code": "&#8198;"
+  },
+  {
+    "name": "Six-Per-Em Space",
+    "abbr": "6/MSP",
+    "name_cn": "六分之一空格",
+    "index": 8198,
+    "type": "htmlEntityHEX",
+    "code": "&#x2006;"
   },
   {
     "name": "Figure Space",
-    "unicode": [
-      "U+2007"
-    ],
-    "htmlEntityName": [
-      "&numsp;"
-    ],
-    "htmlEntityDEC": [
-      "&#8199;"
-    ],
-    "htmlEntityHEX": [
-      "&#x2007;"
-    ],
-    "abbr": "FSP"
+    "abbr": "FSP",
+    "name_cn": "数字空格",
+    "index": 8199,
+    "type": "unicode",
+    "code": "U+2007"
+  },
+  {
+    "name": "Figure Space",
+    "abbr": "FSP",
+    "name_cn": "数字空格",
+    "index": 8199,
+    "type": "htmlEntityName",
+    "code": "&numsp;"
+  },
+  {
+    "name": "Figure Space",
+    "abbr": "FSP",
+    "name_cn": "数字空格",
+    "index": 8199,
+    "type": "htmlEntityDEC",
+    "code": "&#8199;"
+  },
+  {
+    "name": "Figure Space",
+    "abbr": "FSP",
+    "name_cn": "数字空格",
+    "index": 8199,
+    "type": "htmlEntityHEX",
+    "code": "&#x2007;"
   },
   {
     "name": "Punctuation Space",
-    "unicode": [
-      "U+2008"
-    ],
-    "htmlEntityName": [
-      "&puncsp;"
-    ],
-    "htmlEntityDEC": [
-      "&#8200;"
-    ],
-    "htmlEntityHEX": [
-      "&#x2008;"
-    ],
-    "abbr": "PSP"
+    "abbr": "PSP",
+    "name_cn": "符号空格",
+    "index": 8200,
+    "type": "unicode",
+    "code": "U+2008"
+  },
+  {
+    "name": "Punctuation Space",
+    "abbr": "PSP",
+    "name_cn": "符号空格",
+    "index": 8200,
+    "type": "htmlEntityName",
+    "code": "&puncsp;"
+  },
+  {
+    "name": "Punctuation Space",
+    "abbr": "PSP",
+    "name_cn": "符号空格",
+    "index": 8200,
+    "type": "htmlEntityDEC",
+    "code": "&#8200;"
+  },
+  {
+    "name": "Punctuation Space",
+    "abbr": "PSP",
+    "name_cn": "符号空格",
+    "index": 8200,
+    "type": "htmlEntityHEX",
+    "code": "&#x2008;"
   },
   {
     "name": "Thin Space",
-    "unicode": [
-      "U+2009"
-    ],
-    "htmlEntityName": [
-      "&thinsp;",
-      "&ThinSpace;"
-    ],
-    "htmlEntityDEC": [
-      "&#8201;"
-    ],
-    "htmlEntityHEX": [
-      "&#x2009;"
-    ],
-    "abbr": "THSP"
+    "abbr": "THSP",
+    "name_cn": "薄空格",
+    "index": 8201,
+    "type": "unicode",
+    "code": "U+2009"
+  },
+  {
+    "name": "Thin Space",
+    "abbr": "THSP",
+    "name_cn": "薄空格",
+    "index": 8201,
+    "type": "htmlEntityName",
+    "code": "&thinsp;"
+  },
+  {
+    "name": "Thin Space",
+    "abbr": "THSP",
+    "name_cn": "薄空格",
+    "index": 8201,
+    "type": "htmlEntityName",
+    "code": "&ThinSpace;"
+  },
+  {
+    "name": "Thin Space",
+    "abbr": "THSP",
+    "name_cn": "薄空格",
+    "index": 8201,
+    "type": "htmlEntityDEC",
+    "code": "&#8201;"
+  },
+  {
+    "name": "Thin Space",
+    "abbr": "THSP",
+    "name_cn": "薄空格",
+    "index": 8201,
+    "type": "htmlEntityHEX",
+    "code": "&#x2009;"
   },
   {
     "name": "Hair Space",
-    "unicode": [
-      "U+200A"
-    ],
-    "htmlEntityName": [
-      "&hairsp;",
-      "&VeryThinSpace;",
-      "&ThickSpace;"
-    ],
-    "htmlEntityDEC": [
-      "&#8202;"
-    ],
-    "htmlEntityHEX": [
-      "&#x200A;"
-    ],
-    "abbr": "HSP"
+    "abbr": "HSP",
+    "name_cn": "头发空格",
+    "index": 8202,
+    "type": "unicode",
+    "code": "U+200A"
+  },
+  {
+    "name": "Hair Space",
+    "abbr": "HSP",
+    "name_cn": "头发空格",
+    "index": 8202,
+    "type": "htmlEntityName",
+    "code": "&hairsp;"
+  },
+  {
+    "name": "Hair Space",
+    "abbr": "HSP",
+    "name_cn": "头发空格",
+    "index": 8202,
+    "type": "htmlEntityName",
+    "code": "&VeryThinSpace;"
+  },
+  {
+    "name": "Hair Space",
+    "abbr": "HSP",
+    "name_cn": "头发空格",
+    "index": 8202,
+    "type": "htmlEntityName",
+    "code": "&ThickSpace;"
+  },
+  {
+    "name": "Hair Space",
+    "abbr": "HSP",
+    "name_cn": "头发空格",
+    "index": 8202,
+    "type": "htmlEntityDEC",
+    "code": "&#8202;"
+  },
+  {
+    "name": "Hair Space",
+    "abbr": "HSP",
+    "name_cn": "头发空格",
+    "index": 8202,
+    "type": "htmlEntityHEX",
+    "code": "&#x200A;"
   },
   {
     "name": "Zero Width Space",
-    "unicode": [
-      "U+200B"
-    ],
-    "htmlEntityName": [
-      "&NegativeMediumSpace;",
-      "&NegativeThickSpace;",
-      "&NegativeThinSpace;",
-      "&NegativeVeryThinSpace;",
-      "&ZeroWidthSpace;"
-    ],
-    "htmlEntityDEC": [
-      "&#8203;"
-    ],
-    "htmlEntityHEX": [
-      "&#x200B;"
-    ],
-    "abbr": "ZWSP"
+    "abbr": "ZWSP",
+    "name_cn": "零宽度空格",
+    "index": 8203,
+    "type": "unicode",
+    "code": "U+200B"
+  },
+  {
+    "name": "Zero Width Space",
+    "abbr": "ZWSP",
+    "name_cn": "零宽度空格",
+    "index": 8203,
+    "type": "htmlEntityName",
+    "code": "&NegativeMediumSpace;"
+  },
+  {
+    "name": "Zero Width Space",
+    "abbr": "ZWSP",
+    "name_cn": "零宽度空格",
+    "index": 8203,
+    "type": "htmlEntityName",
+    "code": "&NegativeThickSpace;"
+  },
+  {
+    "name": "Zero Width Space",
+    "abbr": "ZWSP",
+    "name_cn": "零宽度空格",
+    "index": 8203,
+    "type": "htmlEntityName",
+    "code": "&NegativeThinSpace;"
+  },
+  {
+    "name": "Zero Width Space",
+    "abbr": "ZWSP",
+    "name_cn": "零宽度空格",
+    "index": 8203,
+    "type": "htmlEntityName",
+    "code": "&NegativeVeryThinSpace;"
+  },
+  {
+    "name": "Zero Width Space",
+    "abbr": "ZWSP",
+    "name_cn": "零宽度空格",
+    "index": 8203,
+    "type": "htmlEntityName",
+    "code": "&ZeroWidthSpace;"
+  },
+  {
+    "name": "Zero Width Space",
+    "abbr": "ZWSP",
+    "name_cn": "零宽度空格",
+    "index": 8203,
+    "type": "htmlEntityDEC",
+    "code": "&#8203;"
+  },
+  {
+    "name": "Zero Width Space",
+    "abbr": "ZWSP",
+    "name_cn": "零宽度空格",
+    "index": 8203,
+    "type": "htmlEntityHEX",
+    "code": "&#x200B;"
   },
   {
     "name": "Zero Width Non-Joiner",
-    "unicode": [
-      "U+200C"
-    ],
-    "htmlEntityName": [
-      "&zwnj;"
-    ],
-    "htmlEntityDEC": [
-      "&#8204;"
-    ],
-    "htmlEntityHEX": [
-      "&#x200C;"
-    ],
-    "abbr": "ZWNJ"
+    "abbr": "ZWNJ",
+    "name_cn": "零宽度非连接符",
+    "index": 8204,
+    "type": "unicode",
+    "code": "U+200C"
+  },
+  {
+    "name": "Zero Width Non-Joiner",
+    "abbr": "ZWNJ",
+    "name_cn": "零宽度非连接符",
+    "index": 8204,
+    "type": "htmlEntityName",
+    "code": "&zwnj;"
+  },
+  {
+    "name": "Zero Width Non-Joiner",
+    "abbr": "ZWNJ",
+    "name_cn": "零宽度非连接符",
+    "index": 8204,
+    "type": "htmlEntityDEC",
+    "code": "&#8204;"
+  },
+  {
+    "name": "Zero Width Non-Joiner",
+    "abbr": "ZWNJ",
+    "name_cn": "零宽度非连接符",
+    "index": 8204,
+    "type": "htmlEntityHEX",
+    "code": "&#x200C;"
   },
   {
     "name": "Zero Width Joiner",
-    "unicode": [
-      "U+200D"
-    ],
-    "htmlEntityName": [
-      "&zwj;"
-    ],
-    "htmlEntityDEC": [
-      "&#8205;"
-    ],
-    "htmlEntityHEX": [
-      "&#x200D;"
-    ],
-    "abbr": "ZWJ"
+    "abbr": "ZWJ",
+    "name_cn": "零宽度连接符",
+    "index": 8205,
+    "type": "unicode",
+    "code": "U+200D"
+  },
+  {
+    "name": "Zero Width Joiner",
+    "abbr": "ZWJ",
+    "name_cn": "零宽度连接符",
+    "index": 8205,
+    "type": "htmlEntityName",
+    "code": "&zwj;"
+  },
+  {
+    "name": "Zero Width Joiner",
+    "abbr": "ZWJ",
+    "name_cn": "零宽度连接符",
+    "index": 8205,
+    "type": "htmlEntityDEC",
+    "code": "&#8205;"
+  },
+  {
+    "name": "Zero Width Joiner",
+    "abbr": "ZWJ",
+    "name_cn": "零宽度连接符",
+    "index": 8205,
+    "type": "htmlEntityHEX",
+    "code": "&#x200D;"
   },
   {
     "name": "Narrow No-Break Space",
-    "unicode": [
-      "U+202F"
-    ],
-    "htmlEntityName": [],
-    "htmlEntityDEC": [
-      "&#8239;"
-    ],
-    "htmlEntityHEX": [
-      "&#x202F;"
-    ],
-    "abbr": "NNBSP"
+    "abbr": "NNBSP",
+    "name_cn": "窄狭的不间断空格",
+    "index": 8239,
+    "type": "unicode",
+    "code": "U+202F"
+  },
+  {
+    "name": "Narrow No-Break Space",
+    "abbr": "NNBSP",
+    "name_cn": "窄狭的不间断空格",
+    "index": 8239,
+    "type": "htmlEntityDEC",
+    "code": "&#8239;"
+  },
+  {
+    "name": "Narrow No-Break Space",
+    "abbr": "NNBSP",
+    "name_cn": "窄狭的不间断空格",
+    "index": 8239,
+    "type": "htmlEntityHEX",
+    "code": "&#x202F;"
   },
   {
     "name": "Medium Mathematical Space",
-    "unicode": [
-      "U+205F"
-    ],
-    "htmlEntityName": [
-      "&MediumSpace;",
-      "&ThickSpace;"
-    ],
-    "htmlEntityDEC": [
-      "&#8287;"
-    ],
-    "htmlEntityHEX": [
-      "&#x205F;"
-    ],
-    "abbr": "MMSP"
+    "abbr": "MMSP",
+    "name_cn": "中等数学空格",
+    "index": 8287,
+    "type": "unicode",
+    "code": "U+205F"
+  },
+  {
+    "name": "Medium Mathematical Space",
+    "abbr": "MMSP",
+    "name_cn": "中等数学空格",
+    "index": 8287,
+    "type": "htmlEntityName",
+    "code": "&MediumSpace;"
+  },
+  {
+    "name": "Medium Mathematical Space",
+    "abbr": "MMSP",
+    "name_cn": "中等数学空格",
+    "index": 8287,
+    "type": "htmlEntityName",
+    "code": "&ThickSpace;"
+  },
+  {
+    "name": "Medium Mathematical Space",
+    "abbr": "MMSP",
+    "name_cn": "中等数学空格",
+    "index": 8287,
+    "type": "htmlEntityDEC",
+    "code": "&#8287;"
+  },
+  {
+    "name": "Medium Mathematical Space",
+    "abbr": "MMSP",
+    "name_cn": "中等数学空格",
+    "index": 8287,
+    "type": "htmlEntityHEX",
+    "code": "&#x205F;"
   },
   {
     "name": "Word Joiner",
-    "unicode": [
-      "U+2060"
-    ],
-    "htmlEntityName": [
-      "&NoBreak;"
-    ],
-    "htmlEntityDEC": [
-      "&#8288;"
-    ],
-    "htmlEntityHEX": [
-      "&#x2060;"
-    ],
-    "abbr": "WJ"
+    "abbr": "WJ",
+    "name_cn": "零宽度词连接符",
+    "index": 8288,
+    "type": "unicode",
+    "code": "U+2060"
+  },
+  {
+    "name": "Word Joiner",
+    "abbr": "WJ",
+    "name_cn": "零宽度词连接符",
+    "index": 8288,
+    "type": "htmlEntityName",
+    "code": "&NoBreak;"
+  },
+  {
+    "name": "Word Joiner",
+    "abbr": "WJ",
+    "name_cn": "零宽度词连接符",
+    "index": 8288,
+    "type": "htmlEntityDEC",
+    "code": "&#8288;"
+  },
+  {
+    "name": "Word Joiner",
+    "abbr": "WJ",
+    "name_cn": "零宽度词连接符",
+    "index": 8288,
+    "type": "htmlEntityHEX",
+    "code": "&#x2060;"
   },
   {
     "name": "Ideographic Space",
-    "unicode": [
-      "U+3000"
-    ],
-    "htmlEntityName": [],
-    "htmlEntityDEC": [
-      "&#12288;"
-    ],
-    "htmlEntityHEX": [
-      "&#x3000;"
-    ],
-    "abbr": "IDSP"
+    "abbr": "IDSP",
+    "name_cn": "表意空格",
+    "index": 12288,
+    "type": "unicode",
+    "code": "U+3000"
+  },
+  {
+    "name": "Ideographic Space",
+    "abbr": "IDSP",
+    "name_cn": "表意空格",
+    "index": 12288,
+    "type": "htmlEntityDEC",
+    "code": "&#12288;"
+  },
+  {
+    "name": "Ideographic Space",
+    "abbr": "IDSP",
+    "name_cn": "表意空格",
+    "index": 12288,
+    "type": "htmlEntityHEX",
+    "code": "&#x3000;"
   },
   {
     "name": "Zero Width No-Break Space",
-    "unicode": [
-      "U+FEFF"
-    ],
-    "htmlEntityName": [],
-    "htmlEntityDEC": [
-      "&#65279;"
-    ],
-    "htmlEntityHEX": [
-      "&#xFEFF;"
-    ],
-    "abbr": "BOM"
+    "abbr": "BOM",
+    "name_cn": "零宽度不间断空恶搞",
+    "index": 65279,
+    "type": "unicode",
+    "code": "U+FEFF"
+  },
+  {
+    "name": "Zero Width No-Break Space",
+    "abbr": "BOM",
+    "name_cn": "零宽度不间断空恶搞",
+    "index": 65279,
+    "type": "htmlEntityDEC",
+    "code": "&#65279;"
+  },
+  {
+    "name": "Zero Width No-Break Space",
+    "abbr": "BOM",
+    "name_cn": "零宽度不间断空恶搞",
+    "index": 65279,
+    "type": "htmlEntityHEX",
+    "code": "&#xFEFF;"
   }
 ]

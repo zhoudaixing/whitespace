@@ -1,70 +1,68 @@
+<!--
+ * @Author: zhoudaixing
+ * @Date: 2024-05-23
+ * @LastEditors: zhoudaixing
+ * @LastEditTime: 2024-05-23
+ * @FilePath: /src/pages/index.vue
+ * @Description:
+-->
 <script setup lang="ts" generic="T extends any, O extends any">
-import { list } from '../utils/data'
+import { data } from '../utils/data'
 import TheHeader from '~/components/TheHeader.vue'
+import getElementWidth from '~/utils/getElementWidth'
 
 defineOptions({
   name: 'IndexPage',
 })
 
-const whitespaceList = ref(list)
+const whitespaceList = ref(data)
 const fontsize = ref(16)
-// const whitespaceList = ref([])
 function sort() {
-  // whitespaceList.value.sort((a, b) => {
-  //   if (!a.el || !b.el)
-  //     throw new Error('a or b is null')
-  //   // if (a.el && b.el)
-  //   return getElementWidth(b.el.whitespace) - getElementWidth(a.el.whitespace)
-  // })
+  whitespaceList.value.sort((a, b) => {
+    if (!a.el || !b.el)
+      throw new Error('a or b is null')
+    return getElementWidth(b.el.whitespace) - getElementWidth(a.el.whitespace)
+  })
 }
 function changeFontsize(value: number) {
   fontsize.value = value
 }
 function reset() {
   // whitespaceList.value.sort((a, b) => {
-  //   if (!a.el || !b.el)
-  //     throw new Error('a or b is null')
-  //   // if (a.el && b.el)
-  //   return getElementWidth(a.el.whitespace) - getElementWidth(b.el.whitespace)
+  //   return a.id - b.id
   // })
+}
+const fontFamily = ref('font-sans')
+function changeFontFamily(index: number) {
+  const family = ['font-sans', 'font-serif', 'font-mono']
+  fontFamily.value = family[index % 3]
 }
 </script>
 
 <template>
-  <TheHeader @sort="sort" @reset="reset" @change-fontsize="changeFontsize" />
-  <div class="flex flex-col items-center whitespace-pre" :style="{ 'font-size': `${fontsize}px` }">
+  <TheHeader
+    @sort="sort"
+    @reset="reset"
+    @change-fontsize="changeFontsize"
+    @change-font-family="changeFontFamily"
+  />
+  <div
+    class="flex flex-col items-center whitespace-pre"
+    :style="{ 'font-size': `${fontsize}px` }"
+    :class="fontFamily"
+  >
     <TransitionGroup name="list">
-      <template v-for="(item) in whitespaceList" :key="item.unicode">
-        <WhiteSpace
-          :name="item.abbr"
-          :code="item.unicode[0]"
-        />
-        <WhiteSpace
-          v-for="(htmlname) in item.htmlEntityName"
-          :key="htmlname"
-          :name="item.abbr"
-          :code="htmlname"
-        />
-        <WhiteSpace
-          :name="item.abbr"
-          :code="item.htmlEntityDEC[0]"
-        />
-        <WhiteSpace
-          :name="item.abbr"
-          :code="item.htmlEntityHEX[0]"
-        />
-      </template>
+      <WhiteSpace
+        v-for="item in whitespaceList"
+        :ref="(el) => item.el = el"
+        :key="item.abbr + item.code"
+        :name="item.name"
+        :abbr="item.abbr"
+        :name-cn="item.name_cn"
+        :type="item.type"
+        :code="item.code"
+      />
     </TransitionGroup>
-    <!-- <div i-carbon-campsite inline-block text-4xl />
-    <p>
-      <a rel="noreferrer" href="https://github.com/antfu/vitesse-lite" target="_blank">
-        Vitesse Lite
-      </a>
-    </p>
-    <p>
-      <em text-sm op75>Opinionated Vite Starter Template</em>
-    </p>
-    <div py-4 /> -->
   </div>
 </template>
 

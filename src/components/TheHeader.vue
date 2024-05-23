@@ -1,9 +1,10 @@
 <script setup>
-defineEmits(['changeFontsize', 'sort', 'reset'])
+defineEmits(['changeFontsize', 'sort', 'reset', 'changeFontFamily'])
 const fontsize = defineModel('fontsize', {
   type: Number,
   default: 16,
 })
+const index = ref(0)
 </script>
 
 <template>
@@ -37,6 +38,14 @@ const fontsize = defineModel('fontsize', {
         @click="$emit('reset')"
       >
         reset
+      </button>
+    </div>
+    <div>
+      <button
+        class="m-3 text-sm btn"
+        @click="$emit('changeFontFamily', index++)"
+      >
+        font
       </button>
     </div>
   </nav>

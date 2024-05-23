@@ -1,5 +1,5 @@
 <template>
-  <main p="x-4 y-10" text="gray-700 dark:gray-200" font-serif>
+  <main p="x-4 y-10" text="gray-700 dark:gray-200">
     <RouterView />
     <TheFooter />
   </main>
