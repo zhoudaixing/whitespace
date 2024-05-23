@@ -435,10 +435,10 @@ const list = [
     ],
     htmlEntityName: [
       '&NegativeMediumSpace;',
-      '&NegativeTnickSpace;',
+      '&NegativeThickSpace;',
       '&NegativeThinSpace;',
-      '&NegativVeryThinSpace;',
-      '&ZeroWithSpace;',
+      '&NegativeVeryThinSpace;',
+      '&ZeroWidthSpace;',
     ],
     htmlEntityDEC: [
       '&#8203;',

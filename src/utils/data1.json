@@ -208,7 +208,7 @@
       "U+200A"
     ],
     "htmlEntityName": [
-      "&harisp;",
+      "&hairsp;",
       "&VeryThinSpace;",
       "&ThickSpace;"
     ],
@@ -227,10 +227,10 @@
     ],
     "htmlEntityName": [
       "&NegativeMediumSpace;",
-      "&NegativeTnickSpace;",
+      "&NegativeThickSpace;",
       "&NegativeThinSpace;",
-      "&NegativVeryThinSpace;",
-      "&ZeroWithSpace;"
+      "&NegativeVeryThinSpace;",
+      "&ZeroWidthSpace;"
     ],
     "htmlEntityDEC": [
       "&#8203;"

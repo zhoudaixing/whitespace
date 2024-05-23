@@ -1,6 +1,7 @@
 <script setup lang="ts">
 // const modelValue = defineModel()
 import getElementWidth from '../utils/getElementWidth'
+import unicode2char from '../utils/unicode2char'
 
 const props = defineProps({
   type: { type: String, default: 'unicode' },
@@ -13,28 +14,26 @@ const width = computed(() => {
     return Number.NaN
   return getElementWidth(whitespace.value)
 })
-const x = props.code.replace(/^U\+/i, '\\u')
-// console.log(x)
-// let code = props.code.replace(/^U\+/i, '\\u');
-// let char = String.fromCharCode(parseInt(code, 16)); // 将十六进制转换为Unicode字符
+const unicode = props.code.startsWith('U+')
 defineExpose({
   whitespace,
 })
 </script>
 
 <template>
-  <div flex container>
+  <div flex container class="whitespace-wrapper">
     <div class="w-2/4" text-right>
-      {{ `${name} + ${code}` }}
+      <span bg-amber-400 pr-1>{{ name }}</span>
+      <span>{{ code }}</span>
     </div>
     <div m="x-1" border-r-1 border-black />
     <!-- <span class="bg-blue">{{ unicode2string(code) }}</span> -->
     <div>
       <span ref="whitespace" class="whitespace bg-blue">
-        <span v-html="`${x}`" />
-        <!-- <span v-if="type === 'unicode'" v-html="x" />
 
-        <span v-if="type === 'html'" v-html="code" /> -->
+        <span v-if="unicode" v-html="unicode2char(code)" />
+
+        <span v-else v-html="code" />
       </span>
 
       <span class="hover-text">
@@ -48,7 +47,7 @@ defineExpose({
 .hover-text {
   visibility: hidden;
 }
-div:hover .hover-text {
+.whitespace-wrapper:hover .hover-text {
   visibility: visible;
 }
 </style>

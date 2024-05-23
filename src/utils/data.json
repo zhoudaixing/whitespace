@@ -120,7 +120,7 @@
     "name": "Hair Space",
     "name_cn": "头发空格",
     "unicode": "200A",
-    "htmlentityname": "harisp; VeryThinSpace; ThickSpace;",
+    "htmlentityname": "hairsp; VeryThinSpace; ThickSpace;",
     "htmlentitydec": "8202",
     "htlentityhex": null,
     "abbr ": "HSP "
@@ -129,7 +129,7 @@
     "name": "Zero Width Space",
     "name_cn": "零宽度空格",
     "unicode": "200B",
-    "htmlentityname": "NegativeMediumSpace; NegativeTnickSpace; NegativeThinSpace; NegativVeryThinSpace; ZeroWithSpace;",
+    "htmlentityname": "NegativeMediumSpace; NegativeThickSpace; NegativeThinSpace; NegativeVeryThinSpace; ZeroWidthSpace;",
     "htmlentitydec": "8203",
     "htlentityhex": null,
     "abbr ": "ZWSP "
