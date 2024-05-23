@@ -1,84 +1,59 @@
-<!-- eslint-disable vue/no-useless-v-bind -->
-<!-- eslint-disable vue/no-useless-v-bind -->
 <script setup lang="ts" generic="T extends any, O extends any">
-import data from '../utils/data'
-import getElementWidth from '../utils/getElementWidth'
+import { list } from '../utils/data'
+import TheHeader from '~/components/TheHeader.vue'
 
 defineOptions({
   name: 'IndexPage',
 })
 
-const whitespaceList = ref(data)
+const whitespaceList = ref(list)
 const fontsize = ref(16)
 // const whitespaceList = ref([])
 function sort() {
-  whitespaceList.value.sort((a, b) => {
-    if (!a.el || !b.el)
-      throw new Error('a or b is null')
-    // if (a.el && b.el)
-    return getElementWidth(b.el.whitespace) - getElementWidth(a.el.whitespace)
-  })
+  // whitespaceList.value.sort((a, b) => {
+  //   if (!a.el || !b.el)
+  //     throw new Error('a or b is null')
+  //   // if (a.el && b.el)
+  //   return getElementWidth(b.el.whitespace) - getElementWidth(a.el.whitespace)
+  // })
 }
-function changeFontsize() {
-
+function changeFontsize(value: number) {
+  fontsize.value = value
 }
 function reset() {
-  whitespaceList.value.sort((a, b) => {
-    if (!a.el || !b.el)
-      throw new Error('a or b is null')
-    // if (a.el && b.el)
-    return getElementWidth(a.el.whitespace) - getElementWidth(b.el.whitespace)
-  })
+  // whitespaceList.value.sort((a, b) => {
+  //   if (!a.el || !b.el)
+  //     throw new Error('a or b is null')
+  //   // if (a.el && b.el)
+  //   return getElementWidth(a.el.whitespace) - getElementWidth(b.el.whitespace)
+  // })
 }
 </script>
 
 <template>
-  <TheInput
-    v-model="fontsize"
-    placeholder="fontsize"
-    autocomplete="false"
-    @keydown.enter="changeFontsize"
-  />
-
-  <div>
-    <button
-      class="m-3 text-sm btn"
-      @click="changeFontsize"
-    >
-      Change
-    </button>
-  </div>
-  <WhiteSpace
-    type="html"
-    name="SPACE"
-    code=" "
-  />
-  <div>
-    <button
-      class="m-3 text-sm btn"
-      @click="sort"
-    >
-      Sort
-    </button>
-  </div>
-  <div>
-    <button
-      class="m-3 text-sm btn"
-      @click="reset"
-    >
-      reset
-    </button>
-  </div>
-  <div class="whitespace-pre" :style="{ 'font-size': `${fontsize}px` }">
+  <TheHeader @sort="sort" @reset="reset" @change-fontsize="changeFontsize" />
+  <div class="flex flex-col items-center whitespace-pre" :style="{ 'font-size': `${fontsize}px` }">
     <TransitionGroup name="list">
-      <WhiteSpace
-        v-for="(item, index) in whitespaceList"
-        :key="item.code"
-        :ref="(el) => { whitespaceList[index].el = el }"
-        :type="item.type"
-        :name="item.name"
-        :code="item.code"
-      />
+      <template v-for="(item) in whitespaceList" :key="item.unicode">
+        <WhiteSpace
+          :name="item.abbr"
+          :code="item.unicode[0]"
+        />
+        <WhiteSpace
+          v-for="(htmlname) in item.htmlEntityName"
+          :key="htmlname"
+          :name="item.abbr"
+          :code="htmlname"
+        />
+        <WhiteSpace
+          :name="item.abbr"
+          :code="item.htmlEntityDEC[0]"
+        />
+        <WhiteSpace
+          :name="item.abbr"
+          :code="item.htmlEntityHEX[0]"
+        />
+      </template>
     </TransitionGroup>
     <!-- <div i-carbon-campsite inline-block text-4xl />
     <p>

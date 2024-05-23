@@ -1,0 +1,200 @@
+[
+  {
+    "name": "Horizontal Tabulation",
+    "name_cn": "制表符",
+    "unicode": "9",
+    "htmlentityname": "Tab;",
+    "htmlentitydec": "9",
+    "htlentityhex": null,
+    "abbr ": "HT "
+  },
+  {
+    "name": "Space",
+    "name_cn": "空格",
+    "unicode": "20",
+    "htmlentityname": null,
+    "htmlentitydec": "32",
+    "htlentityhex": null,
+    "abbr ": " "
+  },
+  {
+    "name": "No-Break Space",
+    "name_cn": "无中断空格",
+    "unicode": "A0",
+    "htmlentityname": "nbsp nbsp; NonBreakingSpace;",
+    "htmlentitydec": "160",
+    "htlentityhex": null,
+    "abbr ": "NBSP "
+  },
+  {
+    "name": "En Quad",
+    "name_cn": "半宽空白",
+    "unicode": "2000",
+    "htmlentityname": null,
+    "htmlentitydec": "8192",
+    "htlentityhex": null,
+    "abbr ": "NQSP "
+  },
+  {
+    "name": "Em Quad",
+    "name_cn": "全宽空白",
+    "unicode": "2001",
+    "htmlentityname": null,
+    "htmlentitydec": "8193",
+    "htlentityhex": null,
+    "abbr ": "MQSP "
+  },
+  {
+    "name": "En Space",
+    "name_cn": "半宽空格",
+    "unicode": "2002",
+    "htmlentityname": "ensp;",
+    "htmlentitydec": "8194",
+    "htlentityhex": null,
+    "abbr ": "ENSP "
+  },
+  {
+    "name": "Em Space",
+    "name_cn": "全宽空格",
+    "unicode": "2003",
+    "htmlentityname": "emsp;",
+    "htmlentitydec": "8195",
+    "htlentityhex": null,
+    "abbr ": "EMSP "
+  },
+  {
+    "name": "Three-Per-Em Space",
+    "name_cn": "三分之一空格",
+    "unicode": "2004",
+    "htmlentityname": "emsp13;",
+    "htmlentitydec": "8196",
+    "htlentityhex": null,
+    "abbr ": "3/MSP "
+  },
+  {
+    "name": "Four-Per-Em Space",
+    "name_cn": "四分之一空格",
+    "unicode": "2005",
+    "htmlentityname": "emsp14;",
+    "htmlentitydec": "8197",
+    "htlentityhex": null,
+    "abbr ": "4/MSP "
+  },
+  {
+    "name": "Six-Per-Em Space",
+    "name_cn": "六分之一空格",
+    "unicode": "2006",
+    "htmlentityname": null,
+    "htmlentitydec": "8198",
+    "htlentityhex": null,
+    "abbr ": "6/MSP "
+  },
+  {
+    "name": "Figure Space",
+    "name_cn": "数字空格",
+    "unicode": "2007",
+    "htmlentityname": "numsp;",
+    "htmlentitydec": "8199",
+    "htlentityhex": null,
+    "abbr ": "FSP "
+  },
+  {
+    "name": "Punctuation Space",
+    "name_cn": "符号空格",
+    "unicode": "2008",
+    "htmlentityname": "puncsp;",
+    "htmlentitydec": "8200",
+    "htlentityhex": null,
+    "abbr ": "PSP "
+  },
+  {
+    "name": "Thin Space",
+    "name_cn": "薄空格",
+    "unicode": "2009",
+    "htmlentityname": "thinsp; ThinSpace;",
+    "htmlentitydec": "8201",
+    "htlentityhex": null,
+    "abbr ": "THSP "
+  },
+  {
+    "name": "Hair Space",
+    "name_cn": "头发空格",
+    "unicode": "200A",
+    "htmlentityname": "harisp; VeryThinSpace; ThickSpace;",
+    "htmlentitydec": "8202",
+    "htlentityhex": null,
+    "abbr ": "HSP "
+  },
+  {
+    "name": "Zero Width Space",
+    "name_cn": "零宽度空格",
+    "unicode": "200B",
+    "htmlentityname": "NegativeMediumSpace; NegativeTnickSpace; NegativeThinSpace; NegativVeryThinSpace; ZeroWithSpace;",
+    "htmlentitydec": "8203",
+    "htlentityhex": null,
+    "abbr ": "ZWSP "
+  },
+  {
+    "name": "Zero Width Non-Joiner",
+    "name_cn": "零宽度非连接符",
+    "unicode": "200C",
+    "htmlentityname": "zwnj;",
+    "htmlentitydec": "8204",
+    "htlentityhex": null,
+    "abbr ": "ZWNJ "
+  },
+  {
+    "name": "Zero Width Joiner",
+    "name_cn": "零宽度连接符",
+    "unicode": "200D",
+    "htmlentityname": "zwj;",
+    "htmlentitydec": "8205",
+    "htlentityhex": null,
+    "abbr ": "ZWJ "
+  },
+  {
+    "name": "Narrow No-Break Space",
+    "name_cn": "窄狭的不间断空格",
+    "unicode": "202F",
+    "htmlentityname": null,
+    "htmlentitydec": "8239",
+    "htlentityhex": null,
+    "abbr ": "NNBSP "
+  },
+  {
+    "name": "Medium Mathematical Space",
+    "name_cn": "中等数学空格",
+    "unicode": "205F",
+    "htmlentityname": "MediumSpace; ThickSpace;",
+    "htmlentitydec": "8287",
+    "htlentityhex": null,
+    "abbr ": "MMSP "
+  },
+  {
+    "name": "Word Joiner",
+    "name_cn": "零宽度词连接符",
+    "unicode": "2060",
+    "htmlentityname": "NoBreak;",
+    "htmlentitydec": "8288",
+    "htlentityhex": null,
+    "abbr ": "WJ "
+  },
+  {
+    "name": "Ideographic Space",
+    "name_cn": "表意空格",
+    "unicode": "3000",
+    "htmlentityname": null,
+    "htmlentitydec": "12288",
+    "htlentityhex": null,
+    "abbr ": "IDSP "
+  },
+  {
+    "name": "Zero Width No-Break Space",
+    "name_cn": "零宽度不间断空恶搞",
+    "unicode": "FEFF",
+    "htmlentityname": null,
+    "htmlentitydec": "65279",
+    "htlentityhex": null,
+    "abbr ": "BOM "
+  }
+]

@@ -1,0 +1,350 @@
+[
+  {
+    "name": "Horizontal Tabulation",
+    "unicode": [
+      "U+0009"
+    ],
+    "htmlEntityName": [
+      "&Tab;"
+    ],
+    "htmlEntityDEC": [
+      "&#9;"
+    ],
+    "htmlEntityHEX": [
+      "&#x0009;"
+    ],
+    "abbr": "HT"
+  },
+  {
+    "name": "Space",
+    "unicode": [
+      "U+0020"
+    ],
+    "htmlEntityName": [],
+    "htmlEntityDEC": [
+      "&#32;"
+    ],
+    "htmlEntityHEX": [
+      "&#x0020;"
+    ],
+    "abbr": ""
+  },
+  {
+    "name": "No-Break Space",
+    "unicode": [
+      "U+00A0"
+    ],
+    "htmlEntityName": [
+      "&nbsp",
+      "&nbsp;",
+      "&NonBreakingSpace;"
+    ],
+    "htmlEntityDEC": [
+      "&#160;"
+    ],
+    "htmlEntityHEX": [
+      "&#x00A0;"
+    ],
+    "abbr": "NBSP"
+  },
+  {
+    "name": "En Quad",
+    "unicode": [
+      "U+2000"
+    ],
+    "htmlEntityName": [],
+    "htmlEntityDEC": [
+      "&#8192;"
+    ],
+    "htmlEntityHEX": [
+      "&#x2000;"
+    ],
+    "abbr": "NQSP"
+  },
+  {
+    "name": "Em Quad",
+    "unicode": [
+      "U+2001"
+    ],
+    "htmlEntityName": [],
+    "htmlEntityDEC": [
+      "&#8193;"
+    ],
+    "htmlEntityHEX": [
+      "&#x2001;"
+    ],
+    "abbr": "MQSP"
+  },
+  {
+    "name": "En Space",
+    "unicode": [
+      "U+2002"
+    ],
+    "htmlEntityName": [
+      "&ensp;"
+    ],
+    "htmlEntityDEC": [
+      "&#8194;"
+    ],
+    "htmlEntityHEX": [
+      "&#x2002;"
+    ],
+    "abbr": "ENSP"
+  },
+  {
+    "name": "Em Space",
+    "unicode": [
+      "U+2003"
+    ],
+    "htmlEntityName": [
+      "&emsp;"
+    ],
+    "htmlEntityDEC": [
+      "&#8195;"
+    ],
+    "htmlEntityHEX": [
+      "&#x2003;"
+    ],
+    "abbr": "EMSP"
+  },
+  {
+    "name": "Three-Per-Em Space",
+    "unicode": [
+      "U+2004"
+    ],
+    "htmlEntityName": [
+      "&emsp13;"
+    ],
+    "htmlEntityDEC": [
+      "&#8196;"
+    ],
+    "htmlEntityHEX": [
+      "&#x2004;"
+    ],
+    "abbr": "3/MSP"
+  },
+  {
+    "name": "Four-Per-Em Space",
+    "unicode": [
+      "U+2005"
+    ],
+    "htmlEntityName": [
+      "&emsp14;"
+    ],
+    "htmlEntityDEC": [
+      "&#8197;"
+    ],
+    "htmlEntityHEX": [
+      "&#x2005;"
+    ],
+    "abbr": "4/MSP"
+  },
+  {
+    "name": "Six-Per-Em Space",
+    "unicode": [
+      "U+2006"
+    ],
+    "htmlEntityName": [],
+    "htmlEntityDEC": [
+      "&#8198;"
+    ],
+    "htmlEntityHEX": [
+      "&#x2006;"
+    ],
+    "abbr": "6/MSP"
+  },
+  {
+    "name": "Figure Space",
+    "unicode": [
+      "U+2007"
+    ],
+    "htmlEntityName": [
+      "&numsp;"
+    ],
+    "htmlEntityDEC": [
+      "&#8199;"
+    ],
+    "htmlEntityHEX": [
+      "&#x2007;"
+    ],
+    "abbr": "FSP"
+  },
+  {
+    "name": "Punctuation Space",
+    "unicode": [
+      "U+2008"
+    ],
+    "htmlEntityName": [
+      "&puncsp;"
+    ],
+    "htmlEntityDEC": [
+      "&#8200;"
+    ],
+    "htmlEntityHEX": [
+      "&#x2008;"
+    ],
+    "abbr": "PSP"
+  },
+  {
+    "name": "Thin Space",
+    "unicode": [
+      "U+2009"
+    ],
+    "htmlEntityName": [
+      "&thinsp;",
+      "&ThinSpace;"
+    ],
+    "htmlEntityDEC": [
+      "&#8201;"
+    ],
+    "htmlEntityHEX": [
+      "&#x2009;"
+    ],
+    "abbr": "THSP"
+  },
+  {
+    "name": "Hair Space",
+    "unicode": [
+      "U+200A"
+    ],
+    "htmlEntityName": [
+      "&harisp;",
+      "&VeryThinSpace;",
+      "&ThickSpace;"
+    ],
+    "htmlEntityDEC": [
+      "&#8202;"
+    ],
+    "htmlEntityHEX": [
+      "&#x200A;"
+    ],
+    "abbr": "HSP"
+  },
+  {
+    "name": "Zero Width Space",
+    "unicode": [
+      "U+200B"
+    ],
+    "htmlEntityName": [
+      "&NegativeMediumSpace;",
+      "&NegativeTnickSpace;",
+      "&NegativeThinSpace;",
+      "&NegativVeryThinSpace;",
+      "&ZeroWithSpace;"
+    ],
+    "htmlEntityDEC": [
+      "&#8203;"
+    ],
+    "htmlEntityHEX": [
+      "&#x200B;"
+    ],
+    "abbr": "ZWSP"
+  },
+  {
+    "name": "Zero Width Non-Joiner",
+    "unicode": [
+      "U+200C"
+    ],
+    "htmlEntityName": [
+      "&zwnj;"
+    ],
+    "htmlEntityDEC": [
+      "&#8204;"
+    ],
+    "htmlEntityHEX": [
+      "&#x200C;"
+    ],
+    "abbr": "ZWNJ"
+  },
+  {
+    "name": "Zero Width Joiner",
+    "unicode": [
+      "U+200D"
+    ],
+    "htmlEntityName": [
+      "&zwj;"
+    ],
+    "htmlEntityDEC": [
+      "&#8205;"
+    ],
+    "htmlEntityHEX": [
+      "&#x200D;"
+    ],
+    "abbr": "ZWJ"
+  },
+  {
+    "name": "Narrow No-Break Space",
+    "unicode": [
+      "U+202F"
+    ],
+    "htmlEntityName": [],
+    "htmlEntityDEC": [
+      "&#8239;"
+    ],
+    "htmlEntityHEX": [
+      "&#x202F;"
+    ],
+    "abbr": "NNBSP"
+  },
+  {
+    "name": "Medium Mathematical Space",
+    "unicode": [
+      "U+205F"
+    ],
+    "htmlEntityName": [
+      "&MediumSpace;",
+      "&ThickSpace;"
+    ],
+    "htmlEntityDEC": [
+      "&#8287;"
+    ],
+    "htmlEntityHEX": [
+      "&#x205F;"
+    ],
+    "abbr": "MMSP"
+  },
+  {
+    "name": "Word Joiner",
+    "unicode": [
+      "U+2060"
+    ],
+    "htmlEntityName": [
+      "&NoBreak;"
+    ],
+    "htmlEntityDEC": [
+      "&#8288;"
+    ],
+    "htmlEntityHEX": [
+      "&#x2060;"
+    ],
+    "abbr": "WJ"
+  },
+  {
+    "name": "Ideographic Space",
+    "unicode": [
+      "U+3000"
+    ],
+    "htmlEntityName": [],
+    "htmlEntityDEC": [
+      "&#12288;"
+    ],
+    "htmlEntityHEX": [
+      "&#x3000;"
+    ],
+    "abbr": "IDSP"
+  },
+  {
+    "name": "Zero Width No-Break Space",
+    "unicode": [
+      "U+FEFF"
+    ],
+    "htmlEntityName": [],
+    "htmlEntityDEC": [
+      "&#65279;"
+    ],
+    "htmlEntityHEX": [
+      "&#xFEFF;"
+    ],
+    "abbr": "BOM"
+  }
+]
